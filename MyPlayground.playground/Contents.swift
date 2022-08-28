@@ -212,7 +212,7 @@ increment(7)
 func hasAnyMatches(list: [Int], condition: (Int) -> Bool) -> Bool {
     // list（コレクション）から値を取り出して繰り返す
     for item in list {
-        //　ここ何をしているのかがわからない。。
+        //　
         if condition (item) {
             return true
         }
@@ -243,3 +243,7 @@ print(mappedNumbers)
 // numbersの値をsortする
 let sortedNumbers = numbers.sorted{ $0 > $1 }
 print(sortedNumbers)
+
+// ④オブジェクトとクラス
+// 
+
